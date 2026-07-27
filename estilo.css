@@ -33,3 +33,12 @@ body {
 main {
     flex: 1;
 }
+
+.cabecalho-link{
+color: rgb(6, 255, 6);
+}
+
+
+h1{
+color: #29bed8;
+}
