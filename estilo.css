@@ -62,3 +62,9 @@ footer{
   border-radius: 12px; 
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 } 
+
+.cartao-interno { 
+  position: relative; 
+  transition: transform 0.8s; 
+  transform-style: preserve-3d; 
+} 
