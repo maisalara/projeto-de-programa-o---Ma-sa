@@ -33,6 +33,9 @@ body {
 
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cabecalho-link{
@@ -56,6 +59,7 @@ footer{
 .cartao-interno { 
   position: relative; 
    transition: transform 0.8s; 
+   transform-style: preserve-3d; 
 }
 
 .cartao:hover .cartao-interno { 
